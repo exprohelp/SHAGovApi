@@ -13,7 +13,7 @@ namespace SHAGovWebApi.Controllers
 {
    
     public class SHAController : ApiController
-    {//
+    {
         DataLayer repository = new DataLayer();
         [HttpGet]
         [Route("api/SHA/GetMemberInformationJSON")]
